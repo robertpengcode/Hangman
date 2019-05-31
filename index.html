@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Luckiest+Guy|Passion+One|Patua+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Hangman</h1>
+  </header>
+  <section>
+    <div id="messageArea">
+      <p id="message"></p>
+    </div>
+    <div id="wordContainer">
+      <p id="wordOutput"></p>
+    </div>
+    <div id="letterKey">
+      <button class="letter" id="a">A</button>
+      <button class="letter" id="b">B</button>
+      <button class="letter" id="c">C</button>
+      <button class="letter" id="d">D</button>
+      <button class="letter" id="e">E</button>
+      <button class="letter" id="f">F</button>
+      <button class="letter" id="g">G</button>
+      <button class="letter" id="h">H</button>
+      <button class="letter" id="i">I</button>
+      <button class="letter" id="j">J</button>
+      <button class="letter" id="k">K</button>
+      <button class="letter" id="l">L</button>
+      <button class="letter" id="m">M</button>
+      <button class="letter" id="n">N</button>
+      <button class="letter" id="o">O</button>
+      <button class="letter" id="p">P</button>
+      <button class="letter" id="q">Q</button>
+      <button class="letter" id="r">R</button>
+      <button class="letter" id="s">S</button>
+      <button class="letter" id="t">T</button>
+      <button class="letter" id="u">U</button>
+      <button class="letter" id="v">V</button>
+      <button class="letter" id="w">W</button>
+      <button class="letter" id="x">X</button>
+      <button class="letter" id="y">Y</button>
+      <button class="letter" id="z">Z</button>
+    </div>
+    <div id="guessedLettersArea">
+      <p id="guessedLetters"></p>
+    </div>
+    <div id="drawArea">
+      <canvas id="canvasHangman" width="200" height="200"></canvas>
+    </div>
+    <button id="btnStart" type="button" name="Start">
+      Start
+    </button>
+    <button id="btnExit" type="button" name="Exit">
+      Exit
+    </button>
+
+  </section>
+  <footer>Made by Robert Peng 😜 2019</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

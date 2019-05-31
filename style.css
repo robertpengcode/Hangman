@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h1 {
+  color: darkred;
+  margin: 20px auto 10px auto;
+  font-weight: lighter;
+  font-size: 4em;
+}
+
+#messageArea {
+  width: 700px;
+  height: 40px;
+  margin: 0 auto 10px;
+  background-color: white;
+  border: 2px solid white;
+}
+
+#message {
+  height: 35px;
+  font-size: 26px;
+  color: red;
+  margin: auto;
+}
+
+#wordContainer {
+  width: 700px;
+  height: 60px;
+  margin: 0 auto 10px;
+  background-color: white;
+  border: 2px solid white;
+}
+
+#wordOutput {
+  height: 55px;
+  font-size: 50px;
+  color: blue;
+  margin: auto;
+}
+
+#letterKey {
+  width: 600px;
+  height: 90px;
+  margin: 0 auto 10px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.letter {
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+  border: 1px solid red;
+  margin: 1px;
+  font-size: 30px;
+  display: inline-block;
+  font-family: 'Luckiest Guy', cursive;
+  padding: 5px;
+  color: darkred;
+}
+
+.letter:hover {
+  background-color: yellow;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+#guessedLettersArea {
+  width: 800px;
+  height: 35px;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid white;
+}
+
+#guessedLetters {
+  height: 35px;
+  font-size: 24px;
+  color: red;
+  margin: auto;
+}
+
+#canvasHangman {
+  background-color: lightblue;
+  border: 2px solid gray;
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border: solid 2px gray;
+  margin: 10px auto;
+  font-size: 25px;
+  font-weight: lighter;
+  color: darkgreen;
+  background-color: lightyellow;
+  font-family: 'Luckiest Guy', cursive;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: yellow;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+footer {
+  color: darkred;
+}
